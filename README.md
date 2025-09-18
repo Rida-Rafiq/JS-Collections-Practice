@@ -33,7 +33,3 @@ This repository contains my JavaScript practice code from **Class 19**, where I 
 - Created a simple function `sayHEY()` that:
   - Logs a message in the console.
   - Shows an alert in the browser.
-
----
-
-## 📂 Project Structure
