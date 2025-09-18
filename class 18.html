@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 18</title>
+</head>
+<body>
+    <h1>Collections</h1>
+
+    <script>
+        // Array Example
+        let fruits = ["apple", "banana", "mango"];
+        fruits.push("grapes");
+        fruits.unshift("cherry");
+
+        fruits.pop();     
+        fruits.shift();   
+        console.log(fruits);
+        console.log("Length of fruits:", fruits.length);
+
+        // Object Example
+        let student = {
+            name: "Rida",
+            age: 19,
+            isStudent: true,
+            salary: "null",
+            course: "cyber security"
+        };
+
+        console.log("Name:", student.name);
+        console.log("Age:", student.age);
+        console.log("Course:", student.course);
+        console.log("Salary:", student.salary);
+        console.log("Is Student:", student.isStudent);
+        console.log("Full Student Object:", student);
+
+        console.log(["name", "salary", "course", "age"]);
+
+        delete student.course;  
+        console.log("After deleting course:", student);
+
+        // Array of Objects
+        let person = [
+            { name: "Danish", age: 20, isLate: false },
+            { name: "Umair", age: 19, isLate: false }
+        ];
+
+        console.log("Person Array:", person);
+        console.log("First Person:", person[0]);
+        console.log("Second Person isLate:", person[1].isLate);
+
+        // Function Example
+        function sayHEY() {
+            console.log("HEY!");
+            alert("Heyyyy!");
+        }
+
+        sayHEY();
+    </script>
+</body>
+</html>
